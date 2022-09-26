@@ -1,5 +1,14 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
+body {
+  background-color: black;
+}
+
 h1 {
   color: red;
+  font-family: "Nosifer", cursive;
+}
+
+#excusebox {
+  border-radius: 25%;
 }
