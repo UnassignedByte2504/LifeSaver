@@ -14,6 +14,10 @@ if(process.env.GITPOD_WORKSPACE_URL){
   publicUrl = `${port}-${host}`;
 }
 
+config.node = {
+  fs: 'empty',
+}
+
 module.exports = {
   mode: 'development',
   entry: ['./src/app.js'],
